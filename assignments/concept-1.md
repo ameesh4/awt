@@ -2,23 +2,23 @@
 
 ### 1. HTTP Methods
 
-- GET
+- GET:
   The specified resource's representation is requested by the GET method. Only data should be retrieved by GET requests; no request content should be included.
-- HEAD
+- HEAD:
   HEAD request is similar to GET but no response body exist.
-- POST
+- POST;
   When an entity is submitted to the designated resource via the POST method, the server frequently experiences side effects or a change in state.
-- PUT
+- PUT:
   The request content is substituted for all existing representations of the target resource using the PUT method.
-- DELETE
+- DELETE:
   This method is used to request the removable of specified resource.
-- CONNECT
+- CONNECT:
   This method create a tunnel to the server identified by the target resource.
-- OPTIONS
+- OPTIONS:
   This method is used to describe communication criteria for the target resource.
-- TRACE
+- TRACE:
   This method is used to perform a message loop-back along the path to the target resource.
-- PATCH
+- PATCH:
   This method is similar to PUT but only applies partial modification to a specified resource.
 
 ### 2. HTTP Response Codes
